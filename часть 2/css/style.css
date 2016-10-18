@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Arial',sans-serif;
+	font-size: 15px;
+	line-height: 30px;
+	background-image: url(../img/fon.png);
+	-moz-background-size: 100%; /* Firefox 3.6+ */
+	-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+	-o-background-size: 100%; /* Opera 9.6+ */
+	background-size: 100%; /* Современные браузеры */;
+	background-position: top;
+	background-repeat: no-repeat;
+}
+img {
+	width: 150px;
+	height: 180px;
+	display: block;
+	margin: 15px auto;
+}
+h1,h4{
+	text-align: center;
+	padding: 15px auto
+}
+
+ul li {
+	padding: 5px;
+	margin-left: 25px;
+	list-style-type: circle;
+}
+.wrapper {
+	float: left;
+  width: 25%;
+	margin: 25px 5px 5px 25px;
+	padding: 10px;
+	background-color: transparent;
+}
